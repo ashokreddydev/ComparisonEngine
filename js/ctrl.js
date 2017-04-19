@@ -248,17 +248,17 @@
         
                     this.homeDeoptResults = homeDeopt.slice(0);
                     this.homeDeoptResults.sort(function(a,b) {
-                            return a.ProductRating - b.ProductRating;
+                            return  b.ProductRating - a.ProductRating;
                         });
                 
                      this.lowesResults = lowes.slice(0);
                     this.lowesResults.sort(function(a,b) {
-                            return a.ProductRating - b.ProductRating;
+                            return  b.ProductRating - a.ProductRating;
                         });
                 
                   this.menardsResults = menards.slice(0);
                     this.menardsResults.sort(function(a,b) {
-                           return a.ProductRating - b.ProductRating;
+                           return  b.ProductRating - a.ProductRating;
                         });
         
             }
