@@ -2083,3 +2083,8 @@ body {padding-right:0px !Important;}
 .card{
 	background-color:#FFFFFF;
 }
+
+/*filter option*/
+
+.sortby {overflow:hidden;}
+.sortby label {text-align:right; margin-top:5px; }
