@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Head -->
+<head>
+    <meta charset="utf-8" />
+    <title>Greater Margins - Payment</title>
+
+    <meta name="description" content="Dashboard" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!--Basic Styles-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--Fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+    <link href="assets/css/custom.css" rel="stylesheet" />
+</head>
+<!-- /Head -->
+<!-- Body -->
+<body>
+    <!-- PRELOADER -->
+	<div id="st-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div>
+	<!-- /PRELOADER -->
+	<!-- HEADER -->
+	<header id="header">
+		<nav class="navbar st-navbar navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+				    	<span class="icon-bar"></span>
+				    	<span class="icon-bar"></span>
+				    	<span class="icon-bar"></span>
+					</button>
+					<a class="logo" href="index.html"><img src="assets/img/logo-origin.png" alt=""></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="st-navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+				    	<li><a href="index.html#header">Home</a></li>
+				    	<li><a href="index.html#about-us">About Us</a></li>
+				    	<li><a href="index.html#services">Services</a></li>
+				    	<li><a href="index.html#pricing">Pricing</a></li>
+				    	<li><a href="index.html#contact">Contact</a></li>
+						<li class="pull-right"><a href="login.html"><i class="fa fa-sign-out"></i>&nbsp;Login</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container -->
+		</nav>
+	</header>
+	<!-- /HEADER -->
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Page Container -->
+        <div class="page-container">
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content container">
+               
+                <!-- Page Body -->
+<div id="wrap">
+	<div id="accordian">
+		<h3 class="text-center main-color"><strong>Payment Information</strong></h3>
+		<div class="step" id="step2">
+			<div class="title">
+				<span class="fa fa-money"></span>
+				<h4>Billing Information</h4>
+			</div>
+		</div>
+		<div class="content" id="address2">
+			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="padding:0px;">
+			<form class="go-right payment-form" action="post" id="suri">
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<label for="state">First Name</label>
+				<input type="name" name="first_name" required value="" id="first_name" placeholder="First Name" />
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+					<label for="state">Last Name</label>				
+				<input type="name" name="last_name" value="" id="last_name" placeholder="Last Name"/>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<label for="state">Phone Number</label>
+				<input type="phone" name="telephone" value="" onkeypress="return isNumberKey(event)" id="telephone" placeholder="Phone Number"/>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<label for="state">Address 1</label>
+				<input type="text" name="address1" value="" id="address1" placeholder="Address 1" />
+				
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<label for="state">Address 2 (Optional)</label>
+				<input type="text" name="address2" value="" id="company" placeholder="Adress 2"/>
+			
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<label for="state">City</label>
+				<input type="text" name="city" value="" id="city" placeholder="Enter City" />
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="state_options">
+				<label for="state">State</label>
+        			<div class="select">
+                 		<select id="state" required >
+                  	 		<option value = "state">Alabama</option>
+                   			<option value = "state">Alaska</option>
+							<option value = "state">Arizona</option>
+                   			<option value = "state">Arkansas</option>
+                   			<option value = "state">California	     </option>
+							<option value = "state">Colorado         </option>
+							<option value = "state">Connecticut      </option>
+							<option value = "state">Delaware         </option>
+							<option value = "state">Florida	         </option>
+							<option value = "state">Georgia          </option>
+							<option value = "state">Hawaii	         </option>
+							<option value = "state">Idaho	         </option>
+							<option value = "state">Illinois         </option>
+							<option value = "state">Indiana	         </option>
+							<option value = "state">Iowa	         </option>
+							<option value = "state">Kansas	         </option>
+							<option value = "state">Kentucky	     </option>
+							<option value = "state">Louisiana	     </option>
+							<option value = "state">Maine	         </option>
+							<option value = "state">Maryland	     </option>
+							<option value = "state">Massachusetts    </option>
+							<option value = "state">Michigan	     </option>
+							<option value = "state">Minnesota	     </option>
+							<option value = "state">Mississippi	     </option>
+							<option value = "state">Missouri	     </option>
+							<option value = "state">Montana	         </option>
+							<option value = "state">Nebraska	     </option>
+							<option value = "state">Nevada	         </option>
+							<option value = "state">New Hampshire    </option>
+							<option value = "state">New Jersey	     </option>
+							<option value = "state">New Mexico	     </option>
+							<option value = "state">New York	     </option>
+							<option value = "state">North Carolina	 </option>
+							<option value = "state">North Dakota	 </option>
+							<option value = "state">Ohio             </option>
+							<option value = "state">Oklahoma         </option>
+							<option value = "state">Oregon           </option>
+							<option value = "state">Pennsylvania	 </option>
+							<option value = "state">Rhode Island	 </option>
+							<option value = "state">South Carolina	 </option>
+							<option value = "state">South Dakota	 </option>
+							<option value = "state">Tennessee	     </option>
+							<option value = "state">Texas	         </option>
+							<option value = "state">Utah	         </option>
+							<option value = "state">Vermont          </option>
+							<option value = "state">Virginia         </option>
+							<option value = "state">Washington	     </option>
+							<option value = "state">West Virginia    </option>
+							<option value = "state">Wisconsin        </option>
+							<option value = "state">Wyoming          </option>
+                 		</select>
+                 	</div>
+                  
+          		</div>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<label for="zip">Zip Code</label>
+				<input type="text" name="zip" value="" onkeypress="return isNumberKey(event)" id="zip" placeholder="12345"  />
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="country_options">
+				  <label class="country" for="country">Country</label>
+        			<div class="select">
+                 		<select id="country" required >
+                  	 		<option value = "1">United States</option>
+                   			
+                 		</select>
+                 	</div>
+          		</div>
+				</div>
+			</form>
+			</div>
+		</div>
+		<div class="step" id="step4">
+			<div class="title">
+				<span class="fa fa-credit-card"></span>
+				<h4>Payment Information</h4>
+			</div>
+		</div>
+		<div class="content" id="payment">
+		<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12" style="padding-right:0px !important; margin:20px 0px;">
+        <div class="form-group">
+            <select class="signupselect">
+				<option value="1" selected>Select a Plan...</option>
+				<option value="2">Advantage (19$/Month)</option>
+				<option value="3">Enterprise (75$/Month for 5 Members)</option>
+				<option value="4">Enterprise (145$/Month for 10 Members)</option>
+			</select>
+			<!--p style="font-size:10px;">Your password must be 6 characters or more</p-->
+        </div>
+		</div>
+		<div class="col-md-8 col-lg-8 col-sm-6 col-xs-12" style="padding-right:0px;">
+		<div class="right pull-right">
+				<div class="accepted" style="padding:0px;">
+					<span><img src="assets/img/visa.png"></span>
+					<span><img src="assets/img/Master-Card-icon.png"></span>
+					<span><img src="assets/img/Amex.png"></span>
+					<!--span><img src="assets/images/ach.png"></span-->
+					<span><img src="assets/img/paypal-icon.png"></span>
+				</div>
+				<!--div class="secured">
+					<img class="lock" src="assets/images/lock.png">
+					<p class="security info">We </p>
+				</div-->
+			</div>
+		</div>
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="padding-left:0px">
+			<div class="left credit_card" id="creditcard-info">
+    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+	  <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked>
+            <label for="radio-1" class="radio-custom-label" style="margin-right:30px;">Stripe Payment (Credit Card / Debit Card)</label>
+	<div class="reveal-if-active col-md-8 col-lg-8 col-sm-12 col-xs-12" id="credit-card" style="display:none;">
+        <form class="go-right payment-form">
+				<input type="text" name="card_number" onkeypress="return isNumberKey(event)" value="" id="card_number1" placeholder="xxxx-xxxx-xxxx-xxxx" data-trigger="change" maxlength="18" data-type="name" data-required="true" data-error-message="Enter Your Credit Card Number"/>
+				
+				<input type="text" name="card_number"  id="cardnumber2" placeholder="Name On Card" data-trigger="change" data-validation-minlength="1" data-type="name" data-required="true" data-error-message="Enter Name As per Card"/>
+				
+				<label class="exp_date" for="Exp_Date">Exp Date</label>
+				  <div class="expiry">
+				  
+				      <div class="month_select">
+				        <select name="exp_month"  id="exp_month" placeholder="" data-trigger="change" data-type="name" data-required="true" data-error-message="Enter Your Credit Card Expiration Date" required>
+							<option value = "1">01 (Jan)</option>
+                   			<option value = "2">02 (Feb)</option>
+                   			<option value = "3">03 (Mar)</option>
+                   			<option value = "4">04 (Apr)</option>
+                   			<option value = "5">05 (May)</option>
+                   			<option value = "6">06 (Jun)</option>
+                   			<option value = "7">07 (Jul)</option>
+                   			<option value = "8">08 (Aug)</option>
+                   			<option value = "9">09 (Sep)</option>
+                   			<option value = "10">10 (Oct)</option>
+                   			<option value = "11">11 (Nov)</option>
+                   			<option value = "12">12 (Dec)</option>
+                        </select>
+                      </div>
+                      <span class="divider">-</span>
+                      <div class="year_select">
+				        <select name="exp_year"  id="exp_year" placeholder="" data-trigger="change" data-type="name" data-required="true" data-error-message="Enter Your Credit Card Expiration Date" required>
+                   			<option value = "3">2016 </option>
+                   			<option value = "4">2017 </option>
+                   			<option value = "5">2018 </option>
+                   			<option value = "6">2019 </option>
+                   			<option value = "7">2020 </option>
+                   			<option value = "8">2022 </option>
+                   			<option value = "9">2023 </option>
+                   			<option value = "10">2024</option>
+                   			<option value = "11">2025</option>
+                   			<option value = "12">2026</option>
+							<option value = "13">2027</option>
+                   			<option value = "14">2028</option>
+                        </select>
+            	      </div>
+            	    </div>
+
+            	<div class="sec_num">
+				        <input type="text" name="ccv"  onkeypress="return isNumberKey(event)"  id="ccv" placeholder="CVV" data-trigger="change" maxlength="4" data-type="name" data-required="true" data-error-message="Enter Your Card Security Code"/>
+				      </div>
+			      </form>
+      </div>
+	</div>
+	<div  class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+      <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
+            <label for="radio-3" class="radio-custom-label">Paypal Payment</label>
+		<div class="reveal-if-active" id="paypal-payment" style="display:none;">
+        <form class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+<a class="paypalimg" href="#" style="width:62%;"><img src="assets/img/paypal_payment.png" class="img-responsive" /></a>
+
+</form>
+      </div>
+	</div>
+    
+    </div>	
+      
+			</div></div>	
+			<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+				<button class="continue center-block payment-submit">Submit</button>
+			</div>
+ 		</div>
+</div>
+</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="login-form" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="main-color">&times;</span></button>
+        <img src="assets/img/logo_edited.png" class="img-responsive login-icon" />
+      </div>
+      <div class="modal-body">
+        <div class="login-content bg-white">    
+                <div class="panel-body" >
+                        <form id="loginform" class="form-horizontal login-padd" role="form"> 		<div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">  
+										
+                                    </div>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                 <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                            </div>
+							<div class="form-group">
+                                 <div class="col-sm-6">
+                                     <button type="button" id="Click"  class="btn btn-block log-btn ">
+										Login
+									</button>
+                                    </div>
+									<div class="col-md-6 control">
+                                        <div class="signup pull-right">
+                                           
+                                        <a href="register.html">
+                                            Create Account ?
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-6 control">
+                                        <div class="signup">
+                                           
+                                        <a href="forgotpwd.html">
+                                            Forgot Password ?
+                                        </a>
+                                        </div>
+                                    </div>
+									<div class="col-sm-6">
+										<div class="checkbox pull-right">
+                                            <label>
+                                               <input type="checkbox" class="inverted">
+                                               <span class="text login-rem">Remember Password</span>
+                                            </label>
+                                        </div>
+									</div>
+                                </div>    
+                            </form>   
+                        </div> 
+            </div>
+      </div>
+      
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+                <!-- /Page Body -->   
+            <!-- /Page Content -->
+    <!--Basic Scripts-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	
+	
+	<script>
+$(document).ready(function() {		
+		$('#credit-card').show();
+   $('input[type="radio"]').click(function() {
+       if($(this).attr('id') == 'radio-1') {
+            $('#credit-card').show();           
+       }
+
+       else {
+            $('#credit-card').hide();    
+       }
+   });
+});
+</script>
+
+<script>
+$(document).ready(function() {	
+   $('input[type="radio"]').click(function() {
+       if($(this).attr('id') == 'radio-2') {
+            $('#debit-card').show();           
+       }
+       else {  
+	   $('#debit-card').hide();
+       }
+   });
+});
+</script>
+<script>
+$(document).ready(function() {	
+   $('input[type="radio"]').click(function() {
+       if($(this).attr('id') == 'radio-3') {
+            $('#paypal-payment').show();           
+       }
+       else {
+            $('#paypal-payment').hide();   
+       }
+   });
+});
+</script>
+				<script language=Javascript>
+
+					  function isNumberKey(evt)
+					  {
+						 var charCode = (evt.which) ? evt.which : event.keyCode
+						 if (charCode > 31 && (charCode < 48 || charCode > 57))
+							return false;
+							
+
+						 return true;
+						
+					  }
+					 
+				   </script>
+				   <script src="assets/js/scripts.js"></script><!-- Scripts -->
+	
+
+</body>
+<!--  /Body -->
+</html>
