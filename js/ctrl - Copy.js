@@ -130,30 +130,29 @@
                 var rating1="";
                 for (var j=0;j<data1[i].ProductRating;j++)
                     {
-                       var r="<i class='fa fa-star'></i>";
+                       var r="<i class='fa fa-star'>";
                         rating1=rating1+r;
                     }
                  var rating2="";
                 for (var k=0;k<data2[i].ProductRating;k++)
                     {
-                       var r="<i class='fa fa-star'></i>";
+                       var r="<i class='fa fa-star'>";
                         rating2=rating2+r;
                     }
                  var rating3="";
                 for (var l=0;l<data3[i].ProductRating;l++)
                     {
-                       var r="<i class='fa fa-star'></i>";
+                       var r="<i class='fa fa-star'>";
                         rating3=rating3+r;
                     }
                 
-                var table="<tr> <td>"+
-										"<div class='bg-space'>"+
-										"<a href='#'> <img src='assets/img/fav.png' class='img-responsive fav-icon' /></a>"+
-										"<img src='"+data1[i].ProductImageUrl+"' class='img-responsive center-block' />"+
+                var table="<tr><td><div class='bg-space'>"+
+				"<img src='assets/img/fav.png' class='img-responsive fav-icon' />"+
+				"<img src='"+data1[i].ProductImageUrl+"' class='img-responsive center-block' />"+
 										"<div class='separator clear-left'>"+
 										"<div class='productdesc'>"+
 											"<h5>"+data1[i].ProductName+"</h5>"+
-											"<p><strong>Model No.</strong> :"+data1[i].ProductModel+"</p>"+
+											"<p><strong>Model No.</strong> :  "+data1[i].ProductModel+"</p>"+
 											"<p><strong>Price</strong> : $"+data1[i].ProductPrice+"</p>"+
 											"<p><strong>Rating</strong> : "+rating1+"</p>"+
 										"</div>"+
@@ -164,14 +163,13 @@
                 
                 
                 trTable=trTable+table;
-                table="<td>"+
-										"<div class='bg-space'>"+
-										"<a href='#'><img src='assets/img/fav.png' class='img-responsive fav-icon' /></a>"+
-										"<img src='"+data2[i].ProductImageUrl+"' class='img-responsive center-block' />"+
+                table="<td><div class='bg-space'>"+
+				"<img src='assets/img/fav.png' class='img-responsive fav-icon' />"+
+				"<img src='"+data2[i].ProductImageUrl+"' class='img-responsive center-block' />"+
 										"<div class='separator clear-left'>"+
 										"<div class='productdesc'>"+
 											"<h5>"+data2[i].ProductName+"</h5>"+
-											"<p><strong>Model No.</strong> :"+data2[i].ProductModel+"</p>"+
+											"<p><strong>Model No.</strong> :  "+data2[i].ProductModel+"</p>"+
 											"<p><strong>Price</strong> : $"+data2[i].ProductPrice+"</p>"+
 											"<p><strong>Rating</strong> : "+rating2+"</p>"+
 										"</div>"+
@@ -183,7 +181,7 @@
                 trTable=trTable+table;
                 
                  table="<td><div class='bg-space'>"+
-				 "<a href='#'> <img src='assets/img/fav.png' class='img-responsive fav-icon' /></a>"+
+				 "<img src='assets/img/fav.png' class='img-responsive fav-icon' />"+
 				 "<img src='"+data3[i].ProductImageUrl+"' class='img-responsive center-block' />"+
 										"<div class='separator clear-left'>"+
 										"<div class='productdesc'>"+

@@ -1866,7 +1866,7 @@ body {padding-right:0px !Important;}
 
 	.desctable { margin-top:40px;}
  
- .desctable tr td i {font-size:55px; position:relative; color:#ffa800; padding-left:5px;}
+ .desctable tr td i { color:#ffa800; padding-left:5px;}
  .desctable tr td span { font-family: "MuseoSans-500" !important;}
  .ratingstar {font-size:14px !important; top:16px !Important; font-weight:600 !Important;}
  
@@ -2084,7 +2084,15 @@ body {padding-right:0px !Important;}
 	background-color:#FFFFFF;
 }
 
-/*filter option*/
 
-.sortby {overflow:hidden;}
-.sortby label {text-align:right; margin-top:5px; }
+
+
+.fav-icon {width:30px !Important; height:30px !Important;}
+
+.tableheader {background-color:#052c55; color:#fff;}
+
+.desctable td{border:none !Important;}
+.bg-space {background-color:#fff; padding:15px; margin:5px;}
+
+.btnbuy {background-color:#052c55; color:#fff; padding:7px 15px; margin-top:15px; border:none;}
+.btnbuy:hover, .btnbuy:focus {text-decoration:underline; background-color:#ffa800; color:#052c55;}
